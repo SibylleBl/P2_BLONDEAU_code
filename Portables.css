@@ -1,0 +1,189 @@
+
+
+@media only screen and (max-width: 767px) {
+
+
+/* paramètres généraux*/
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: 'Raleway', arial, verdana, sans-serif;
+    width: 90%;
+    max-width: 750px;
+}
+
+/* Header */
+header
+{
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0;
+}
+
+header img
+{
+    margin: 40px auto auto 40px;
+}
+
+header li
+{
+    border-top: 0px;
+    border-bottom: 3px #f2f2f2 solid;
+    padding: 20px 50px;
+}
+header li:hover
+{
+    border-top: 0px;
+    border-bottom: 3px#0065fc solid;
+}
+
+
+/* barre de recherche */
+nav.rech_et_filtres
+{
+    margin: 2% 0%;
+}
+div.loupe
+{
+    opacity: 100%;
+    position: absolute;
+    width: auto;
+    height: auto;
+    border-radius: 10px 10px 10px 10px;
+}
+div.rechercher
+{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+input#barre_recherche
+{
+    display: flex;
+    padding: 10px 15px;
+}
+
+div.filtres
+{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+div.button_filtres
+{
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+div.button_filtres button
+{
+    margin: 2%;
+}
+
+
+/* sections */
+h3
+{
+    font-size: 130%;
+}
+div.heb_pop
+{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+#heb_marseille, section.plus_populaires 
+{
+    margin: 0;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+section.plus_populaires
+{
+    border-radius: 0%;
+}
+section.plus_populaires img
+{
+    width: 70%;
+    height: 150px;
+    border-radius: 15px 0 0 15px;
+}
+
+#heb_marseille
+{
+    background-color: transparent;
+
+}
+div.element_heb
+{
+    width: 80%;
+    margin: 5px 20px 5px 20px;
+}
+div.elements_pop
+{
+    flex-direction: column;
+    align-items: center;
+}
+div.element_pop
+{
+    width: 90%;
+    margin: 10px 5px 10px 5px;
+}
+div.element_pop a 
+{
+    flex-direction: row;
+}
+/* activités */
+#Activités_marseille
+{
+    margin: 2%;
+}
+#Activités_marseille div.titre_h3
+{
+    margin: 2% 0 10% 2%;
+}
+div.elements_act
+{
+    flex-direction: column;
+}
+div.element_act
+{
+    margin: 2% 0 2% 0;
+}
+div.act_column, div.act_column_2
+{
+    width: 100%;
+}
+div.element_act figure img 
+{
+    width: 100%;
+    height: 200px;
+}
+footer
+{
+    flex-direction: column;
+    padding: 5%;
+}
+div.elements_foot
+{
+    flex-direction: column;
+}
+div.element_foot
+{
+    margin-bottom: 5%;
+    gap: 12px;
+}
+div.element_foot ul
+{
+    gap: 8px;
+}
+}
+
+
