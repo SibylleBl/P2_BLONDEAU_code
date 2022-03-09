@@ -14,7 +14,7 @@
 body
 {
     font-family: 'Raleway', arial, verdana, sans-serif;
-    width: 90%;
+    width: 100%;
     max-width: 991px;
     margin:auto;
 
@@ -44,9 +44,9 @@ div.heb_pop
 section.plus_populaires
 {
     width: 100%;
-    padding: 1% 5%;
     border-radius: 0;
     margin-bottom: 2%;
+    margin-left: 0;
 }
 section.plus_populaires img
 {
@@ -63,10 +63,17 @@ section.plus_populaires div.text
     width: 100%;
 }
 
+section.plus_populaires div.titre_h3
+{
+    width: 95%;
+}
+
 div.elements_pop
 {
+    width: 95%;
     flex-direction: row;
     gap: 2%;
+    justify-content: space-between;
 }
 div.element_pop a
 {
